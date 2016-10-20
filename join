@@ -1,0 +1,21 @@
+/inner join
+
+Select Column_1, Column_2
+
+From table1
+inner join tabl 2
+
+On table1.column_name = table2.column_name
+
+/union
+Select column1 from table 1
+union
+select column2 from table 2
+
+/left join
+select column1
+
+from table1
+left join table2
+
+on table1.column1=table2.column2
