@@ -1,0 +1,14 @@
+/-- Syntax for SQL Server, Azure SQL Database, Azure SQL Data Warehouse, Parallel Data Warehouse  
+/https://msdn.microsoft.com/en-us/library/ms188383.aspx
+GETDATE ( )  
+
+SELECT GETDATE() AS CurrentDateTime
+
+/with table
+
+CREATE TABLE Orders
+(
+OrderId int NOT NULL PRIMARY KEY,
+ProductName varchar(50) NOT NULL,
+OrderDate datetime NOT NULL DEFAULT GETDATE()
+)
