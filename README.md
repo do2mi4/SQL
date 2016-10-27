@@ -1,4 +1,2 @@
-# reports_SQL
-run reports with SQL
-
-/basics SQL
+#SQL random notes
+#passwords encryption: https://msdn.microsoft.com/en-us/library/dd822791.aspx
