@@ -1,0 +1,61 @@
+/phone numbers
+/actions
+/calendar
+/users' information
+/pictures
+
+
+/Use SQl on Azure is free ... tired of paying the cloud
+/Try to connect to the Cloud ... looks like there is one up ...but not sure about the SQL part
+/user name, expiration date, CVS for credit cards, card numbers would be escripts. can be done by API
+/need paypal and square connections through iOS first
+/test connections with Azure
+/username, date paid, pay amount, payment method, descriptions (others)
+//http://ondras.zarovi.cz/sql/demo/
+/how to adjust the design of database (single dimention)
+
+/.....convert mysql diagrams to SQL first .... use demo and then run trans SQL ....easier
+//not sure if Azure can read the sql HERE....odd to me
+//predefined database scheme on azure for paypal....check
+//now about the user-interface
+//try to pay on the web first (07/27/2016)
+
+.....connect iOS to Azure 
+.....add application server then
+
+-- ---
+-- Globals
+-- ---
+
+-- SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+-- SET FOREIGN_KEY_CHECKS=0;
+
+-- ---
+-- Table 'userID'
+-- Primary Key
+-- ---
+
+DROP TABLE IF EXISTS `userID`;
+		
+CREATE TABLE `userID` (
+  `id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) COMMENT 'Primary Key';
+
+-- ---
+-- Foreign Keys 
+-- ---
+
+
+-- ---
+-- Table Properties
+-- ---
+
+-- ALTER TABLE `userID` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ---
+-- Test Data
+-- ---
+
+-- INSERT INTO `userID` (`id`) VALUES
+-- ('');
